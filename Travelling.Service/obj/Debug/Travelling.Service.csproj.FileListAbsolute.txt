@@ -1,0 +1,7 @@
+D:\project\practise\Travelling\Travelling.Service\bin\Debug\Travelling.Service.dll
+D:\project\practise\Travelling\Travelling.Service\bin\Debug\Travelling.Service.pdb
+D:\project\practise\Travelling\Travelling.Service\bin\Debug\Travelling.Repository.dll
+D:\project\practise\Travelling\Travelling.Service\bin\Debug\Travelling.Repository.pdb
+D:\project\practise\Travelling\Travelling.Service\obj\Debug\Travelling.Service.csprojResolveAssemblyReference.cache
+D:\project\practise\Travelling\Travelling.Service\obj\Debug\Travelling.Service.dll
+D:\project\practise\Travelling\Travelling.Service\obj\Debug\Travelling.Service.pdb

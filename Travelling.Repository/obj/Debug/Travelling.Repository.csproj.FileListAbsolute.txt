@@ -1,0 +1,5 @@
+D:\project\practise\Travelling\Travelling.Repository\bin\Debug\Travelling.Repository.dll
+D:\project\practise\Travelling\Travelling.Repository\bin\Debug\Travelling.Repository.pdb
+D:\project\practise\Travelling\Travelling.Repository\obj\Debug\Travelling.Repository.dll
+D:\project\practise\Travelling\Travelling.Repository\obj\Debug\Travelling.Repository.pdb
+D:\project\practise\Travelling\Travelling.Repository\obj\Debug\Travelling.Repository.csprojResolveAssemblyReference.cache

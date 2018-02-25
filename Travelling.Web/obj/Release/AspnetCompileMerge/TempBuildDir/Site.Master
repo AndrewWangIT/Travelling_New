@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Travelling.Web.SiteMaster" %>
+
+<%--<!DOCTYPE html>--%>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8">
+      <title>Adminity - Tables</title>
+      <link rel="shortcut icon" href="favicon.gif">
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.gif">
+    <!---CSS Files-->
+    <link rel="stylesheet" href="/assets/css/master.css">
+    <link rel="stylesheet" href="/assets/css/tables.css">
+    <!---jQuery Files-->
+    <script src="/assets/js/jquery-1.7.1.min.js"></script>
+    <script src="/assets/js/jquery-ui-1.8.17.min.js"></script>
+    <script src="/assets/js/styler.js"></script>
+    <script src="/assets/js/jquery.tipTip.js"></script>
+    <script src="/assets/js/colorpicker.js"></script>
+    <script src="/assets/js/sticky.full.js"></script>
+    <script src="/assets/js/global.js"></script>
+    <script src="/assets/js/jquery.dataTables.min.js"></script>
+    <!---Fonts-->
+    <%--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>--%>
+    <link href="/assets/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="/assets/js/jquery-ui.min.js"></script>
+</head>
+<body>
+    <!--- HEADER -->
+
+	<div class="header">
+       <a href="dashboard.html"><img src="../assets/img/logo.png" alt="Logo" /></a> 
+       <div class="styler">
+         <ul class="styler-show">
+           <li><div id="colorSelector-top-bar"></div></li>
+           <li><div id="colorSelector-box-head"></div></li>
+         </ul>
+       </div>
+    </div>
+
+    <div class="top-bar">
+        <ul id="nav">
+        <li id="user-panel">
+            <img src="/assets/img/usr-avatar.jpg" id="usr-avatar" alt="" />
+            <div id="usr-info">
+            <p id="usr-name">欢迎回来, <asp:Label ID="lblUserName" runat="server"></asp:Label>.</p>
+            </div>
+        </li>
+        <li>
+        <ul id="top-nav">
+            <li class="nav-item">
+            <a href="../Form/Lines.aspx"><img src="../assets/img/dash.png" alt="" /><p>主页</p></a>
+            </li>
+            <li class="nav-item">
+            <a href="../Form/AddVisitor.aspx"><img src="../assets/img/anlt.png" alt="" /><p>添加客人</p></a>
+            </li>
+            <li class="nav-item">
+            <a href="../Form/Inquiry.aspx"><img src="../assets/img/tb-active.png" alt="" /><p>明日参团</p></a>
+            </li>
+            <li class="nav-item">
+            <a href="../Form/HistoryList.aspx"><img src="../assets/img/cal.png" alt="" /><p>历史抱客</p></a>
+            </li>
+            <li class="nav-item">
+            <a href="widgets.html"><img src="../assets/img/widgets.png" alt="" /><p>预约结账</p></a>
+            </li>
+            <li class="nav-item" id="admintab" runat="server">
+            <a href="grid.html"><img src="../assets/img/grid.png" alt="" /><p>管理员</p></a>
+            <ul class="sub-nav">
+                <li><a href="../Form/AddUser.aspx">用户管理</a></li>
+                <li><a href="../Form/AdminLine.aspx">编辑线路</a></li>
+                <li><a href="../Form/AddLine.aspx">添加线路</a></li>
+                <li><a href="../Form/AdminMinRCT.aspx">明日参团</a></li>
+                <li><a href="../Form/AdminHistoryList.aspx">历史客源</a></li>
+                <li><a href="#">结账记录</a></li>
+            </ul>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+
+    <div class="container body-content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        
+    </div>
+
+
+</body>
+</html>
